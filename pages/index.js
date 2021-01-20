@@ -8,7 +8,7 @@ function Home() {
 }
 
 function Contador(){
-    const[contador, setContador] = useState(-2);
+    const[contador, setContador] = useState(3);
 
     function adicionarContador(){
         setContador(contador + 1);
