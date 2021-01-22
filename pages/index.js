@@ -17,7 +17,7 @@ function Contador(){
     return (
         <div>
             <div>{ contador }</div>
-            <button onClick={ adicionarContador }>Adicionar</button>
+            <button onClick={ adicionarContador }>Adicionar 1</button>
         </div>
     )
 }
